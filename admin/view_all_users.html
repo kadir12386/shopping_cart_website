@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <!-- Bootstrap v4.6.1 -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <!-- styles link -->
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <!--font-awesome-4.7.0 link  -->
+    <link
+      rel="stylesheet"
+      href="../assets/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar Starts here -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light admin_header_bgcolor3 py-3"
+    >
+      <button
+        class="navbar-toggler ml-auto text-white"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarNavAltMarkup"
+      >
+        <div class="navbar-nav text-uppercase">
+          <a class="nav-link mr-3 text-white px-3" href="../index.html"
+            >Home Page</a
+          >
+          <a class="nav-link mr-3 text-white px-3 navbar_active" href="#"
+            >View all users</a
+          >
+          <a class="nav-link mr-3 text-white" href="./add_products.html"
+            >Add product</a
+          >
+          <a class="nav-link mr-3 text-white" href="./edit_products.html"
+            >Edit product</a
+          >
+          <a class="nav-link mr-3 text-white" href="#">Logout</a>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar Ends  here -->
+    <div class="container mt-5">
+      <div class="heading_text mb-4">
+        <h2 class="titleText"><span>V</span>iew All the Users</h2>
+      </div>
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+          <thead class="table_header">
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Orders</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>sample1</td>
+              <td>sample@gamil.com</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>sample2</td>
+              <td>sample2@gamil.com</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>sample3</td>
+              <td>sample@gamil.com</td>
+              <td>2</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- scrpit -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
